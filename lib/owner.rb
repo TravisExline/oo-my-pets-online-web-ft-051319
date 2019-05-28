@@ -13,6 +13,9 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
+  def buy_fish(new_fish)
+  end
+
   def say_species
     return "I am a #{@species}."
   end
