@@ -43,6 +43,14 @@ class Owner
     end
   end
 
+  def feed_fish
+    @pets.each do |animal, name|
+      name.each do |fish|
+        fish.mood = "happy"
+      end
+    end
+  end
+
   def say_species
     return "I am a #{@species}."
   end
