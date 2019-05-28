@@ -64,7 +64,7 @@ class Owner
     fish_count = @pets[:fishes].size
     dog_count = @pets[:dogs].size
     cat_count = @pets[:cats].size
-    puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
+    return "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
 
   def say_species
