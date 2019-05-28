@@ -21,6 +21,9 @@ class Owner
     @pets[:cats] << new_cat
   end
 
+  def buy_dog(dog_name)
+    @pets[:dogs] << Dog.new(dog_name)
+
   def say_species
     return "I am a #{@species}."
   end
