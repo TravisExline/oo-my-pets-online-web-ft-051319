@@ -31,6 +31,7 @@ class Owner
       name.mood = "happy"
     end
   end
+  end
 
   def say_species
     return "I am a #{@species}."
