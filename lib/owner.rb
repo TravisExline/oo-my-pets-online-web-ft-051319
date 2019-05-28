@@ -56,6 +56,7 @@ class Owner
       name.each do |animal|
         animal.mood = "nervous"
       end
+      name.clear
     end
   end
 
