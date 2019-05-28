@@ -6,7 +6,7 @@ class Owner
 
   def initialize(species)
     @species = species
-    @@all << species
+    @@all << @species
   end
 
   def say_species
