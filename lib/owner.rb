@@ -57,7 +57,6 @@ class Owner
         animal.mood = "nervous"
       end
     end
-    name.clear
   end
 
   def say_species
