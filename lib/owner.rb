@@ -35,6 +35,14 @@ class Owner
   end
   end
 
+  def play_with_cats
+    @pets.each do |animal, name|
+      name.each do |cat|
+        cat.mood = "happy"
+      end
+    end
+  end
+
   def say_species
     return "I am a #{@species}."
   end
